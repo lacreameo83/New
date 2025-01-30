@@ -60,7 +60,7 @@ function TripleSection() {
   ];
 
   return (
-    <div className="flex justify-center h-fit items-center relative">
+    <div style={{marginBottom:'30px'}} className="flex justify-center overflow-hidden  items-center relative">
       <div className="max-w-[1392px] gap-10 xl:gap-0 h-fit  xl:w-full grid grid-cols-1 xl:grid-cols-3">
         {/* Left Section */}
         <div

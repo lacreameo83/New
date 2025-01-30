@@ -139,7 +139,7 @@ function PopularAution() {
         {/* Scrollable container */}
         <div
           ref={containerRef}
-          className="flex gap-8 w-[320px] md:w-[900px] xl:w-fit  overflow-x-auto  scrollbar-hide"
+          className="flex gap-8 w-[320px] md:w-[900px] xl:w-[1100px] 2xl:w-fit  element   overflow-x-auto  scrollbar-hide"
         >
           {data.map((el, i) => (
             <AuctionCards

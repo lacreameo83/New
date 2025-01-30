@@ -8,7 +8,7 @@ import Icon2 from "../../../../public/icon2.png";
 import Image from "next/image";
 function OverlLine2() {
   return (
-    <div className="flex flex-col border-b-[1px] h-fit border-[rgba(38,40,64,1)]  py-14 xl:h-[100vh]  sm:flex-row gap-[150px] w-full justify-center items-center">
+    <div className="flex overflow-hidden flex-col border-b-[1px]  border-[rgba(38,40,64,1)]  py-14 xl:h-[100vh]  sm:flex-row gap-[150px] w-full justify-center items-center">
       <div className="max-w-[1392px]  w-[100%] grid grid-cols-1 sm:grid-cols-2 xl:w-[100%] ">
         <div className="flex-center   ">
           <Image src={leftimage} alt="RightImage" height={700} width={700} />

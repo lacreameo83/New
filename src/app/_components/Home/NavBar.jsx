@@ -10,7 +10,7 @@ function NavBar() {
     <div className="h-[117px] w-full flex-center ">
       <div
         // style={{ paddingLeft: "20px", paddingRight: "20px" }}
-        className="max-w-[1390px]   w-[100%]  flex items-center justify-between"
+        className="max-w-[1392px] w-[90%] md:w-[90%]   2xl:w-[100%]  flex items-center justify-between"
       >
         <div className="h-[34px] w-[34px] ">
           <Link href="/">
