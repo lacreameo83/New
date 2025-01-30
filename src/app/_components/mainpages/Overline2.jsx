@@ -3,8 +3,8 @@ import React from "react";
 import leftimage from "../../../../public/leftimage.png";
 import Blackbutton from "../reseable/Blackbutton";
 import Button from "../reseable/Button";
-import Icon1 from "../../../../public/Icon1.png";
-import Icon2 from "../../../../public/Icon2.png";
+import Icon1 from "../../../../public/icon1.png";
+import Icon2 from "../../../../public/icon2.png";
 import Image from "next/image";
 function OverlLine2() {
   return (
