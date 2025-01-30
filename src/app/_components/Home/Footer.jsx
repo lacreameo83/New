@@ -7,9 +7,11 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import logo from "../../../../public/logo.png";
 import Image from "next/image";
+
 function Footer() {
   return (
-    <div style={{ marginBottom: "20px" }} className="flex-center  w-full  ">
+    <div style={{ marginBottom: "20px",marginTop:'20px' }} className="flex-center flex-col  w-full  ">
+     
       <div className="flex flex-col gap-8 sm:gap-0 sm:flex-row">
         <div
           style={{ padding: "30px" }}

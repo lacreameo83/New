@@ -6,6 +6,7 @@ import TripleSection from "./_components/mainpages/TripleSection";
 import OverlLine2 from "./_components/mainpages/Overline2";
 import PopularAution from "./_components/mainpages/PopularAution";
 import CustomersFeedback from "./_components/mainpages/Customerfeedback";
+import Total from "./_components/mainpages/Total";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <TripleSection />
       <OverlLine2 />
       <PopularAution />
+      <Total />
       <CustomersFeedback />
     </div>
   );

@@ -58,7 +58,7 @@ function CustomersFeedback() {
             paddingTop: "100px",
             paddingBottom: "100px",
           }}
-          className="max-w-[1392px] p-10 md:w-[90%] xl:w-full items-center bg-gradient-to-b  rounded-b-[20px] rounded-tr-[20px] grid grid-cols-1 xl:grid-cols-2 from-[rgba(255,255,255,0.1)] to-[rgba(255,255,255,0)]"
+          className="max-w-[1392px] p-10 md:w-[100%] xl:w-full items-center bg-gradient-to-b  rounded-b-[20px] rounded-tr-[20px] grid grid-cols-1 sm:grid-cols-2 from-[rgba(255,255,255,0.1)] to-[rgba(255,255,255,0)]"
         >
           <div className="flex flex-col  gap-[48px] ">
             <p className="inter text-[rgba(119,128,161,1)] font-[500] text-[15px] w-[459px] leading-[18.15pxpx] ">
@@ -79,7 +79,7 @@ function CustomersFeedback() {
 
           <div>
            
-            <Image src={Users} width={500} height={500} alt="Users" />
+            <Image src={Users} width={900} height={900} alt="Users" />
           </div>
         </div>
       </div>

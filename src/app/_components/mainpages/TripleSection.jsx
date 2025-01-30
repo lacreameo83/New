@@ -61,18 +61,18 @@ function TripleSection() {
 
   return (
     <div className="flex justify-center h-fit items-center relative">
-      <div className="max-w-[1392px] md:w-[90%] xl:w-full grid grid-cols-1 sm:grid-cols-3">
+      <div className="max-w-[1392px] gap-10 xl:gap-0 h-fit  xl:w-full grid grid-cols-1 xl:grid-cols-3">
         {/* Left Section */}
         <div
           //   style={{ paddingLeft: "50px" }}
           className="relative h-[841px] overflow-hidden  flex items-center justify-around flex-col  border-[1px] border-[rgba(38,40,64,1)] rounded-[20px] xl:w-[448px]"
         >
-          <p className="font-semibold xl:w-[314px] text-[32px] leading-[40px]">
+          <p className="font-semibold w-[314px] text-[32px] leading-[40px]">
             Check out the hottest Sale offers
           </p>
           <div
             ref={containerRef}
-            className="flex gap-8 xl:not-contrast-more:w-[350px] element  overflow-x-auto scrollbar-hide"
+            className="flex gap-8  w-[350px] element  overflow-x-auto scrollbar-hide"
           >
             {data.map((el, i) => (
               <AuctionCards
@@ -117,10 +117,10 @@ function TripleSection() {
         </div>
 
         {/* Center Section */}
-        <div className=" text-center gap-4 h-[841px] overflow-hidden  flex items-center justify-around flex-col  border-[1px] border-[rgba(38,40,64,1)] rounded-[20px] xl:w-[448px]">
-          <div className="h-fit  w-full  ">
+        <div className=" text-center  h-[841px] overflow-hidden  flex items-center justify-around flex-col  border-[1px] border-[rgba(38,40,64,1)] rounded-[20px] xl:w-[448px]">
+          <div className="  ">
             {/* <img className="object-cover bg-transparent h-[500px]" /> */}
-            <Image height={300} width={400} src={image} alt="NFT Preview" />
+            <Image height={10} width={350} src={image} alt="NFT Preview" />
           </div>
 
           <div className="flex flex-col gap-2">
@@ -132,7 +132,7 @@ function TripleSection() {
               Mi est sit.
             </p>
           </div>
-          <Button width={"xl:w-[368px]"} text="Get started" />
+          <Button width={"w-[368px]"} text="Get started" />
         </div>
 
         {/* Right Section (Empty) */}
@@ -146,7 +146,7 @@ function TripleSection() {
                 <div key={i} className="flex gap-4">
                   <div
                     style={{ backgroundImage: `url(${el.image.src})` }}
-                    className="xl:h-[120px] h-[30px] w-[30px] xl:w-[120px] bg-cover rounded-3xl bg-no-repeat bg-center "
+                    className="h-[120px]   w-[120px] bg-cover rounded-3xl bg-no-repeat bg-center "
                   ></div>
                   <AuctionCards
                     // widthcontainer="w-[212px]"
@@ -182,7 +182,7 @@ function TripleSection() {
             </div>
           </div>
           <div>
-            <Blackbutton width={"xl:w-[368px]"} text="Show me more" />
+            <Blackbutton width={"w-[368px]"} text="Show me more" />
           </div>
         </div>
       </div>

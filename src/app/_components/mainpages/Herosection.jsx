@@ -25,7 +25,7 @@ function Herosection() {
     <div>
       <div
         style={{ marginTop: "50px", marginBottom: "60px" }}
-        className="mt-[30px] h-fit relative flex-col gap-[20px] flex-center"
+        className="mt-[30px] h-fit relative flex-col overflow-hidden gap-[20px] flex-center"
       >
         <p className="text-[rgba(119,128,161,1)] text-[15px] font-[500] inter leading-[18.15px] text-center ">
           Non Fungible Tokens
@@ -50,44 +50,39 @@ function Herosection() {
         </div>
         <div className=" h-fit ">
           <div className="flex items-center">
-            <p className=" sm:text-[120px] font-[600] leading-[120px] text-center  ">
+            <p className=" sm:text-[120px] leading-[60px] text-[60px] font-[600] sm:leading-[120px] text-center  ">
               A new NFT
             </p>
-            {/* <img
-              // style={{ marginLeft: "50px" }}
-              className="w-[40px] h-[91px] relative left-[20px]  "
-              src={Frame1}
-              alt="logo"
-            /> */}
+
             <Image src={Frame1} alt="logo" width={40} height={91} />
           </div>
           <div
-            style={{ marginLeft: "0px" }}
+            style={{ marginLeft: "30px" }}
             className="flex gap-[20px] items-center"
           >
             <Image src={Frame2} alt="logo" width={62} height={62} />
             {/* <img className="w-[62px] h-[62px]   " src={Frame2} alt="logo" /> */}
-            <p className="sm:text-[120px] font-[600] leading-[120px] text-center  ">
+            <p className="sm:text-[120px] leading-[60px] font-[600] text-[60px] sm:leading-[120px] text-center  ">
               Experience
             </p>
           </div>
         </div>
 
-        <p className="text-[rgba(119,128,161,1)] text-[24px] font-[400] inter leading-[36px] text-center ">
+        <p className="text-[rgba(119,128,161,1)] text-[24px] font-[400] inter xl:leading-[36px] text-center ">
           Discover, collect and sell
         </p>
 
         <div
           style={{ paddingLeft: "20px", paddingRight: "20px" }}
-          className="bg-[rgba(255,255,255,1)] gap-[60px] flex flex-col sm:flex-row items-center justify-center h-[84px] rounded-[16px] "
+          className="bg-[rgba(255,255,255,1)] gap-[20px] xl:gap-[60px] flex flex-col sm:flex-row items-center justify-center sm:h-[84px] rounded-[16px] "
         >
           <input
-            className="w-[238px] h-[24px] text-[rgba(38,40,64,1)] font-[400] inter outline-none text-[16px] leading-[24px] "
+            className="w-[238px] h-[24px]  text-[rgba(38,40,64,1)] font-[400] inter outline-none text-[16px] leading-[24px] "
             type="text"
             placeholder="Items, collections and creators"
           />
           <div className="flex items-center gap-[20px]">
-            <p className="bg-[rgba(38,40,64,1)] h-[28px] w-[1px] "></p>
+            <p className="bg-[rgba(38,40,64,1)] h-[28px] w-[1px] hidden xl:block "></p>
             <div className="w-[162px]">
               <Dropdown
                 options={["Option 1", "Option 2", "Option 3", "Option 4"]}
@@ -102,7 +97,6 @@ function Herosection() {
         </div>
 
         <div style={{ marginTop: "60px" }} className="">
-          
           <Image src={logotypes} alt="logotypes" width={500} height={500} />
         </div>
       </div>

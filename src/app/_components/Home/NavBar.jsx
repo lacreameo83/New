@@ -3,17 +3,19 @@ import logo from "../../../../public/logo.png";
 import Image from "next/image";
 import Button from "../reseable/Button";
 import Blackbutton from "../reseable/Blackbutton";
+import Link from "next/link";
 
 function NavBar() {
   return (
     <div className="h-[117px] w-full flex-center ">
       <div
         // style={{ paddingLeft: "20px", paddingRight: "20px" }}
-        className="max-w-[1390px]  w-[100%]  flex items-center justify-between"
+        className="max-w-[1390px]   w-[100%]  flex items-center justify-between"
       >
         <div className="h-[34px] w-[34px] ">
-         
-          <Image src={logo} alt="logo" height={34} width={34}/>
+          <Link href="/">
+            <Image src={logo} alt="logo" height={34} width={34} />
+          </Link>
         </div>
 
         <div className=" ">
@@ -21,7 +23,9 @@ function NavBar() {
             <li className="hover:text-[rgb(207, 207, 234)] ">Auctions</li>
             <li className="hover:text-[rgb(207, 207, 234)] ">Roadmap</li>
             <li className="hover:text-[rgb(207, 207, 234)] ">Discover</li>
-            <li className="hover:text-[rgb(207, 207, 234)] ">Community</li>
+            <Link href="/detailpage">
+              <li className="hover:text-[rgb(207, 207, 234)] ">Community</li>
+            </Link>
           </ul>
         </div>
 

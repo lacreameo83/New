@@ -6,8 +6,8 @@ import Image from "next/image";
 
 function OverLine() {
   return (
-    <div className="flex w-full justify-center items-center">
-      <div className="max-w-[1392px] grid grid-cols-1 xl:grid-cols-2 md:w-[90%] xl:w-[100%] ">
+    <div style={{marginTop:'60px',marginBottom:'60px'}} className="flex w-full justify-center  items-center">
+      <div className="max-w-[1392px] grid grid-cols-1 sm:grid-cols-2 md:w-[90%] xl:w-[100%] ">
         <div className="flex flex-col  gap-[48px]">
           <p className="inter text-[rgba(119,128,161,1)] font-[500] text-[15px] w-[459px] leading-[18.15pxpx] ">
             Overline
